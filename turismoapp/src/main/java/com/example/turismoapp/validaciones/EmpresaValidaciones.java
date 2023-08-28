@@ -6,11 +6,12 @@ public class EmpresaValidaciones {
 
     //private Util objetoUtil = new Util();
 
-    public Boolean validarNombre ( String nombre ) throws Exception{
+    public Boolean validarNombre ( String nombre ) {
 
 
         if(nombre.length()>30){
-            throw new Exception("Longitud de caracteres invalida");
+            //throw new Exception("Longitud de caracteres invalida");
+            return false;
         }
         else
         {
