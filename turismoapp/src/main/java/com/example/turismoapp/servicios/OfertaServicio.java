@@ -6,10 +6,12 @@ import com.example.turismoapp.repositorios.EmpresaRepositorio;
 import com.example.turismoapp.repositorios.OfertaRepositorio;
 import com.example.turismoapp.validaciones.EmpresaValidaciones;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class OfertaServicio {
 
     @Autowired
